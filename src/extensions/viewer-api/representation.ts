@@ -1,8 +1,10 @@
+import { System } from './system';
+
 export class Representation {
     selection: string; // Replace with the correct type of mol* atom selection
     type: string;
 
-    constructor(selection: string, type: string, options: any) {
+    constructor(system: System, selection: string, type: string, options: any) {
         this.selection = selection;
         this.type = type;
     }
