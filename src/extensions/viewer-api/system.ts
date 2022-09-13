@@ -36,4 +36,8 @@ export class System {
     setCurrentFrame(frame: number) {
         // Change which frame of a trajectory, or model is currently visualized
     }
+
+    destruct() {
+        // Delete this System
+    }
 }
